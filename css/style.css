@@ -1,0 +1,252 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: '微軟正黑體';
+    line-height: 1.5;
+    text-align: center;
+}
+.wrap{
+    max-width:1024px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(https://upload.cc/i1/2020/06/19/eaGEV3.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header h1{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.header .selectZone{
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background: rgba(300,300,300,0.7);
+    width: 80%;
+    height: 50px;
+    margin: 80px 20px ;
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: 3px;
+    font-family: '微軟正黑體';
+}
+.content{
+    background-color: #f7f7f7;
+}
+.hotSpot {
+    border-radius: 5px;
+    margin: -20px auto 0;
+    width: 80%;
+    background: #fff;
+    box-shadow: 0px 0px 3px #a29f9f;
+    padding: 10px;
+}
+.hotSpot h4{
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.hotSpot .btn{
+    display: flex;
+    justify-content: space-around;
+}
+.hotSpot .spotBtn{
+    padding: 8px 35px;
+    color: #fff;
+    font-family: '微軟正黑體';
+    font-weight: bold;
+    border: 1px;
+    border-radius: 3px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+.hotSpot .spotBtn:hover{
+    transition: all 1s;
+    opacity: 0.5;
+}
+.hotSpot .btn-1{
+    background: #8a82cc;
+}
+.hotSpot .btn-2{
+    background: #ffa782;
+}
+.hotSpot .btn-3{
+    background: #f5d005;
+}
+.hotSpot .btn-4{
+    background: #559ac8;
+}
+@media(max-width:768px){
+    .hotSpot .btn{
+        display: grid;
+        justify-content: unset;
+    }
+}
+
+.dashedLine{
+    border-bottom: 2px dashed #559AC8;
+    width: 80%;
+    margin: 45px auto -10px;
+}
+.content .icon-down{
+    width: 18px;
+}
+.introduce h2{
+    color:#8a82cc;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.introduce .spotArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.introduce .spot{
+    width: 455px;
+    margin: 2% 0;
+    box-shadow: 1px 0px 3px #a29f9f;
+    transition: all 0.5s;
+}
+.introduce .spot a{
+    text-decoration: none;
+    color: #000;
+   
+}
+.introduce .spot:hover{
+    opacity: 0.7;
+    box-shadow: 0px 5px 5px #c3bdff;
+}
+.introduce .imgText{
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+.introduce h3{
+    font-size: 20px;
+    margin: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.introduce p{
+    margin: 12px 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.introduce .imgZone{
+    position: relative;
+    width: 100%;
+    height: 155px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introduce .textArea{
+    text-align: left;
+    text-indent: 36px;
+    line-height: 2;
+    background-color: #fff;
+    padding: 7px 12px;
+}
+.introduce .icon{
+    background-repeat: no-repeat;
+}
+.introduce .openTime{
+    background-image: url(https://upload.cc/i1/2020/06/20/k7pbUG.png);    background-position: 8px 8px;
+}
+.introduce .address{
+    background-image: url(https://upload.cc/i1/2020/06/20/puLowJ.png);    background-position: 8px 8px;
+}
+.introduce .tel{
+    background-image: url(https://upload.cc/i1/2020/06/20/imA70S.png);    background-position: 10px 8px;
+}
+.introduce .ticket{
+    background-image: url(https://upload.cc/i1/2020/06/20/8KMtwX.png);    background-position: 8px 8px;
+}
+.introduce .beside{
+    display: flex;
+    justify-content: space-between;
+}
+.page ul{
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.page li a{
+    text-decoration: none;
+    color: #888888;
+}
+
+.page li a:hover{
+    color: #559ac8;
+    text-decoration:underline;
+}
+
+.footer{
+    background-color: #559ac8;
+    line-height: 2;
+    padding: 15px 0;
+}
+.footer h5{
+    color: #fff;
+}
+.footer p{
+    color: #f5d005;
+}
+.iconTop{
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+}
